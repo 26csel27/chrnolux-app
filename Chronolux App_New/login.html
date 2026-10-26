@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoLux - Collector Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            width: 350px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(255,255,255,0.2);
+        }
+
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .link-text {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h2>Collector Login</h2>
+        <p>Welcome Back</p>
+
+        <form action="dashboard.html">
+            <input type="email" placeholder="Email Address"
+                   value="Divya@gmail.com" required><br>
+
+            <input type="password" placeholder="Password"
+                   value="123456" required><br>
+
+            <button type="submit">Access Secure Vault</button>
+        </form>
+
+        <p>
+            New here?
+            <a class="link-text" href="registration.html">
+                Register Profile
+            </a>
+        </p>
+    </div>
+</body>
+</html>
